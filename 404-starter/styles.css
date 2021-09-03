@@ -2,17 +2,18 @@ body, p {
   margin:0;
 }
 body {
+  background-color: #fff;
   color: #2f80ed;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   display: flex;
-  height: 100vh; 
+  height: 100vh;
 }
 .container{
   width: 520px;
-  margin:auto;
+  margin:110px auto auto;
 }
 .image{
-  width:100%; 
+  width:100%;
 }
 .text{
   width:400px;
@@ -38,11 +39,12 @@ font-weight: 400;
   position: absolute;
   bottom: 30px;
   width: 100%;
-  display: flex;
+  display: block;
 }
 .footer p{
 margin: auto;
 font-size: 16px;
+text-align: center;
 }
 .footer a {
   color: #2f80ed;
